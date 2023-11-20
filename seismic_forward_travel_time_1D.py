@@ -402,10 +402,11 @@ def plot_velmod_raypath( source_points, receiver_points,
 
     # Plot ray paths
     unique_labels = set()
-    for ray_path in ray_paths:
-        plt.plot( ray_path[:,n1], ray_path[:,n2], linestyle='-', color='b', 
-                  label='ray paths' if 'ray paths' not in unique_labels else "", zorder=2)
-        unique_labels.add('ray paths')
+    if ray_path is not None :
+        for ray_path in ray_paths:
+            plt.plot( ray_path[:,n1], ray_path[:,n2], linestyle='-', color='b', 
+                      label='ray paths' if 'ray paths' not in unique_labels else "", zorder=2)
+            unique_labels.add('ray paths')
 
     # Plot velocity model
     xarr = np.linspace(ax.get_xlim()[0], ax.get_xlim()[1], 100)
