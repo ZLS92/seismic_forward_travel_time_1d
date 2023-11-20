@@ -80,7 +80,7 @@ This process continues until reaching the receiver and then retracing the path b
 repeating these steps until the difference between the radius of the previous step and the last calculated radius is less than a certain threshold. 
 This iterative procedure is applied to all intersections of the ray segment.
 
-### Third step, i.e., "def def min_travel_times_paths_1D(...)"
+### Third step, i.e., "def min_travel_times_paths_1D(...)"
 The last step iterate the second step over each couple of the input source-reciever points, returning a list of all the corresponding travel-times and ray-paths.
 Optionally, it is possible to specify which couple of source and reciver input to compute by providing the name of the sources and of the recivers in the fourth column of the source_poits, reciever_points arrays, 
 and also providing the aegument SR_cobinations with a 2 columns array with the name of the selected sources and recievers on each line.
