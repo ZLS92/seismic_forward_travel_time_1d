@@ -89,6 +89,7 @@ and also providing the aegument SR_cobinations with a 2 columns array with the n
 * *Böhm, G. and OGS research group (2014), Cat3D - Computer Aided Tomography for 3-D models. User Manual, OGS; https://hdl.handle.net/20.500.14083/6558*
 * *Böhm, G., G.Rossi, e A. Vesnaver, 1999. Minimum time ray-tracing for 3-D irregular grids, J. of Seism. Expl., 8: 117-131.*
 
-
+### How to cite 
+*Luigi Sante Zampa. (2023). ZLS92/seismic_forward_travel_time_1d: seismic_forward_travel_time_1d_v1.0 (seismic_forward_). Zenodo. https://doi.org/10.5281/zenodo.10160697*
 
 
