@@ -360,9 +360,10 @@ def plot_velmod_raypath( source_points, receiver_points,
     This function plots the velocity model and ray paths of a seismic wave in a 1D medium.
 
     Parameters:
-    source_points (list): List of source points of the seismic wave.
-    receiver_points (list): List of receiver points of the seismic wave.
+    source_points (array-like): List of source points of the seismic wave.
+    receiver_points (array-like): List of receiver points of the seismic wave.
     plane_points (list): List of points on each plane.
+    ray_paths (list): List with ray paths i.e., output "all_ray_paths" from "min_travel_times_paths_1D" function
     prj2plane (str): Projection plane for the plot. Can be 'xz', 'xy', or 'yz'.
 
     Returns:
