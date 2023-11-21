@@ -57,7 +57,7 @@ The algorithm unfolds in three iterative steps:
                                                        S
 ```
 
-Given the triplet R-I-S, with R and S located in two half-spaces separated by the plane p, the problem is to find the path from S to R in the shortest possible time, 
+Given the triplet of points R-I-S, with R and S located in two half-spaces separated by the plane p, the problem is to find the path from S to R in the shortest possible time, 
 taking into account the velocities V1 and V2 in the two half-spaces.
 After simple calculations (using the Pythagorean theorem), the time for the R-I-S path is given by the function:
 
