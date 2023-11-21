@@ -461,11 +461,11 @@ def plot_velmod_raypath( source_points, receiver_points,
 # Main program
 if __name__ == "__main__":
 
-    # Define velocities (V), source/receiver positions (x, z), and interface depths
+    # Define velocities (V), source/receiver positions (x, y, z), and interface depths
     V = [ 8000, 5000, 3000, 2000 ]
     depths = [ -4000, -2000, -1000, 0 ]
-    source_points = [ ( -1000, 0, -5000 ), ( -2000, 0, -3500 ) ]  
-    receiver_points = [ ( 1000, 0, 0 ), ( 500, 0, 0 ) ]  
+    source_points = [ ( -1000, 0, -5000 ), ( -2000, 0, -3500 ) ] # 2 source points
+    receiver_points = [ ( 1000, 0, 0 ), ( 500, 0, 0 ) ] # 2 reciever points 
 
     # Calculate the minimum travel time path
     all_ray_paths, all_travel_times = min_travel_times_paths_1D( V, depths,
